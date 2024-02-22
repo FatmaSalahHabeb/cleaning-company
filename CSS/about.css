@@ -1,0 +1,221 @@
+.swiper {
+    width: 80%;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,transparent,#0002,#0004)
+  }
+  .about-page-smallDiscription-h1{
+      font-size: 116px;
+      color: #2d4149;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      position: relative;
+  }
+  .about-page-smallDiscription-h1::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: #3a56612e;
+      bottom: 0%;
+      left: 0%;
+  }
+  .about-page-smallDiscription-p{
+      font-size: 32px;
+      font-family: 'Poppins', sans-serif;
+      color: #2d4149;
+  }
+  .about-page-p{
+      font-family: 'Jost', sans-serif;
+      color: #63787f;
+
+  }
+  .swiper2 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-page-nextSlider .card{
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+  }
+  .about-page-nextSlider img{
+      height: 200px;
+      border-radius: 0;
+  }
+  .about-page-nextSlider .card-body{
+      height: 200px;
+  }
+  @media (max-width:767.90px) {
+    .about-page-nextSlider img{
+        height: 260px;
+    }
+    .about-page-nextSlider .card-body{
+        height: 260px;
+    }
+  }
+  .card-about-slid-line{
+      width: 100%;
+      height: 2px;
+      background-color: #99a2b1;
+  }
+  .card-about-slid-line::after{
+      content: '\f111';
+      position: absolute;
+      color: #203556;
+      left: 50%;
+      top: 47.5%;
+      font-family: FontAwesome;
+
+  }
+  .prev_arrow{
+      position: absolute;
+      z-index: 1;
+      left: 0%;
+      top: 47%;
+      font-size: 23px;
+      color: #203556;
+  }
+  .next_arrow{
+      position: absolute;
+      z-index: 1;
+      right: 0%;
+      top: 47%;
+      font-size: 23px;
+      color: #203556;
+  }
+  .small-portfolioTo-aboutPage-h1{
+      position: relative;
+  }
+  .small-portfolioTo-aboutPage-h1 h1{
+      font-size: 116px;
+      color: #2d4149;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+  }
+  .small-portfolioTo-aboutPage-h1::after{
+      content: "";
+      position: absolute;
+      width: 80%;
+      height: 1px;
+      background-color: #3a56612e;
+      bottom: 0%;
+      left: 0%;
+  }
+  .small-portfolioTo-aboutPage-h2{
+      font-size: 32px;
+      color: #2d4149;
+      /* font-family: 'Poppins', sans-serif; */
+      font-family: 'Jost', sans-serif;
+  }
+  .showcase-img{
+      width: 400px;
+      height: 330px;
+      transition: all 0.6s;
+      overflow: hidden;
+  }
+  .showcase-img img{
+      width: 85%;
+      width: 100%;
+      margin: auto;
+      height: 100%;
+      transition: all 0.6s;
+  }
+  .showcase-img .card-title{
+    color: #2d4149;
+    font-size: 22px;
+  }
+  .showcase-img .card-text{
+    color: #63787f;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  /* .showcase-img:hover img{
+      transform: scale(1.1);
+  } */
+  .small-decrip-with-img p{
+      color: #63787f;
+      line-height: 30px;
+  }
+  .Contact-Details-bg{
+      width: 100%;
+      height: 500px;
+      background-image: url(../Images/About-image/slid1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100%;
+      background-attachment: fixed;
+      position: relative;
+  }
+  .Contact-Details-bg-overflow{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.4);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .typewrite{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.typewrite:hover{
+  color: #fff;
+  cursor: text;
+}
+.aboutPage-contactLink{
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.fa-arrow-up{
+  transform: rotate(45deg);
+}
+@media (max-width:991.90px) {
+    .about-page-smallDiscription-h1 , 
+    .small-portfolioTo-aboutPage-h1 h1{
+        font-size: 50px;
+    }
+}
+@media (max-width:400.90px) {
+    .about-page-smallDiscription-h1 , 
+    .small-portfolioTo-aboutPage-h1 h1{
+        font-size: 30px;
+    }
+}
